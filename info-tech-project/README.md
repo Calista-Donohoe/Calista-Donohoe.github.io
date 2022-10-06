@@ -1,2 +1,0 @@
-# Info-Tech-project
- 
