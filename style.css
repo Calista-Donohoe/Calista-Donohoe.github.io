@@ -5,6 +5,6 @@ h1 {
 }
 
 p {
-    background-color:yellow;
     color: orange;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
