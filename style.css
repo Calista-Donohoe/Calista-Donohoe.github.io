@@ -3,14 +3,12 @@
 
 #nameplate {
     background-color: #F6E3BA;
-    border-style: solid;
-    border: 10px green;
+    border: 10px solid green;
 }
 
 .section {
     background-color: #FFEFCB;
-    border-style: solid;
-    border: 10px red;
+    border: 10px solid red;
 }
 
 body {
