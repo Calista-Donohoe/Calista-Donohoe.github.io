@@ -1,5 +1,15 @@
 /* link test*/
 
+
+#nameplate {
+    background-color: #F6E3BA;
+}
+
+.section {
+    background-color: #FFEFCB;
+    border: 1px red;
+}
+
 body {
     background-color: #ccaa77;
 }
@@ -17,13 +27,3 @@ h2 {
 p {
     color: #bb6633;
     font-family: 'Quicksand', sans-serif;
-
-#nameplate {
-    background-color: #F6E3BA;
-}
-
-.section {
-    background-color: #FFEFCB;
-    border: 1px red;
-
-}
