@@ -1,15 +1,19 @@
 /* link test*/
 
 body {
-    background-color: yellow;
+    background-color: #ccaa77;
 }
 
 h1 {
-    color: red;
-    font-family:'Courier New', Courier, monospace;
+    color: #773311;
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    color: #730
+    font-family: 'Noto Serif', serif;
 }
 
 p {
-    color: orange;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-}
+    color: #bb6633;
+    font-family: 'Quicksand', sans-serif;
