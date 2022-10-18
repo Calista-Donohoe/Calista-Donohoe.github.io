@@ -24,5 +24,6 @@ p {
 
 .section {
     background-color: #FFEFCB;
+    border: 1px red;
 
 }
