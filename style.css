@@ -74,9 +74,26 @@ h1 {
     margin-bottom:2%;
 }
 
-a {
+a:link {
+    color: #b07721;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #87604b;
     text-decoration:none;
 
+}
+
+a:hover {
+    color: #87604b;
+    text-decoration-color:#87604b;
+
+}
+
+a:active {
+    color: #b07721;
+    text-decoration-color: #87604b;
 }
 
 .welcome-section {
