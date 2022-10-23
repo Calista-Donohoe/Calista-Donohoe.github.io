@@ -87,12 +87,14 @@ a:visited {
 
 a:hover {
     color: #87604b;
+    text-decoration:underline;
     text-decoration-color:#87604b;
 
 }
 
 a:active {
     color: #b07721;
+    text-decoration:underline;
     text-decoration-color: #87604b;
 }
 
