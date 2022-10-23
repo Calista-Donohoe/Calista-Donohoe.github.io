@@ -60,11 +60,17 @@ h1 {
     font-family: 'Quicksand', serif;
     font-size:4em;
     padding:0px;
+    text-shadow: 2px 2px 2px #87604b;
 }
 
 nav {
     font-family: 'Quicksand', serif;
     font-size: 1.25em;
+}
+
+a {
+    text-decoration:none;
+    
 }
 
 .welcome-section {
