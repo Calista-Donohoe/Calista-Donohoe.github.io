@@ -50,6 +50,8 @@ header {
     display:flex;
     flex-direction:column;
     justify-content:space-between;
+    padding-left:31%;
+    padding-right:31%;
 }
 
 footer {
