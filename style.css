@@ -30,6 +30,11 @@ p {
     font-family: 'Quicksand', sans-serif;
 }
 */
+html, body {
+    background-color:#fef4e4;
+    margin: 0;
+    padding: 0;
+}
 
 body {
     display:flex;
@@ -68,7 +73,7 @@ nav {
     font-size: 1.25em;
     display:block;
     position:relative;
-    background-color:#F6E3BA;
+    background-color:#feedd2;
     padding:5%;
     margin:0%;
 }
