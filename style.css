@@ -94,7 +94,6 @@ a {
     position:relative;
     padding-top:0;
     padding-bottom:0;
-    display: flex;
     list-style: none;
     box-sizing: border-box;
     width:100%;
