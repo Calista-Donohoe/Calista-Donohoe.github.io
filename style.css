@@ -66,11 +66,22 @@ h1 {
 nav {
     font-family: 'Quicksand', serif;
     font-size: 1.25em;
+    display:block;
+    position:relative;
+    background-color:#F6E3BA;
+    padding:5%;
+    margin:0%;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
 }
 
 a {
     text-decoration:none;
-    
+
 }
 
 .welcome-section {
@@ -98,4 +109,16 @@ a {
     margin-right:5%;
     text-align:justify;
     align-items:center;
+}
+
+#nav-drawings {
+    padding: 5%;
+}
+
+#nav-baking {
+    padding: 5%;
+}
+
+#nav-writing {
+    padding: 5%;
 }
