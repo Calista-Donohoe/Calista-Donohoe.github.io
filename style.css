@@ -59,6 +59,7 @@ footer {
     text-align:center;
     margin-top: auto;
     bottom:0;
+    background-color: #feedd2;
 }
 
 nav {
@@ -86,15 +87,15 @@ a:visited {
 }
 
 a:hover {
-    color: #87604b;
+    color: #b07721;
     text-decoration:underline;
     text-decoration-color:#87604b;
 
 }
 
 a:active {
-    color: #b07721;
-    text-decoration:underline;
+    color: #87604b;
+    text-decoration: underline;
     text-decoration-color: #87604b;
 }
 
@@ -147,7 +148,7 @@ a:active {
     width: 50%;
     margin-top:2%;
     margin-bottom:2%;
-    margin-left: 5%;
+    margin-left: 7%;
     margin-right:5%;
     text-align:justify;
     align-items:center;
