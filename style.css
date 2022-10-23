@@ -30,3 +30,7 @@ p {
     font-family: 'Quicksand', sans-serif;
 }
 */
+
+body {
+    display:flex;
+}
