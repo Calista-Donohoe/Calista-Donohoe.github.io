@@ -68,22 +68,6 @@ h1 {
     text-shadow: 2px 2px 2px #87604b;
 }
 
-nav {
-    font-family: 'Quicksand', serif;
-    font-size: 1.25em;
-    display:block;
-    position:relative;
-    background-color:#feedd2;
-    padding:5%;
-    margin:0%;
-}
-
-.nav {
-    display: flex;
-    list-style: none;
-    margin: 0;
-}
-
 a {
     text-decoration:none;
 
@@ -95,6 +79,27 @@ a {
     display:flex;
     align-items:center;
     position:relative;
+}
+
+.nav-menu {
+    background-color: #feedd2;
+    font-family: 'Quicksand', serif;
+    font-size: 1.25em;
+    display:block;
+    position:relative;
+    background-color:#feedd2;
+    padding-top:0;
+    padding-bottom:0;
+    margin:0%;
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
 }
 
 #profile-img {
@@ -126,4 +131,8 @@ a {
 
 #nav-writing {
     padding: 5%;
+}
+
+#nameplate {
+    padding-bottom:0;
 }
