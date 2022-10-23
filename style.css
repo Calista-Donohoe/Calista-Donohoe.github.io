@@ -42,7 +42,7 @@ body {
     flex-direction:column;
     align-items:center;
     position:relative;
-    font-family: 'Noto Serif', serif;
+    font-family: 'Jost', sans-serif;
     font-size: .8em;
 }
 
@@ -73,6 +73,13 @@ h1 {
     padding:0px;
     text-shadow: 2px 2px 2px #87604b;
     margin-bottom:2%;
+}
+
+h2 {
+    color: #b07721;
+    font-family: 'Jost', 'Quicksand', sans-serif;
+    font-size:2em;
+    padding:0px;
 }
 
 a:link {
@@ -150,6 +157,7 @@ a:active {
     margin-bottom:2%;
     margin-left: 7%;
     margin-right:5%;
+    padding:5%;
     text-align:justify;
     align-items:center;
 }
