@@ -33,15 +33,63 @@ p {
 
 body {
     display:flex;
+    min-height: 100vh;
+    flex-direction:column;
+    align-items:center;
+    position:relative;
+    font-family: 'Noto Serif', serif;
+    font-size: .8em;
 }
 
 header {
     display:block;
+    flex-direction:column;
+}
+
+footer {
+    display:block;
+    position:relative;
+    width:100%;
+    text-align:center;
+    margin-top: auto;
+    bottom:0;
+}
+
+h1 {
+    color: #b07721;
+    font-family: 'Quicksand', serif;
+    font-size:4em;
+    padding:0px;
+}
+
+nav {
+    font-family: 'Quicksand', serif;
+    font-size: 1.25em;
+}
+
+.welcome-section {
+    width: 100%;
+    margin: 15px auto;
+    display:flex;
+    align-items:center;
+    position:relative;
 }
 
 #profile-img {
     width: 100%;
-    max-width: 200px;
-    margin: 20px;
-    border-radius: 25%;
+    max-width: 500px;
+    border-radius: 100%;
+    margin: 10px;
+    border: solid;
+    border-color:#b07721;
+}
+
+#bio {
+    width: 50%;
+    margin-top:2%;
+    margin-bottom:2%;
+    margin-left: 5%;
+    margin-right:5%;
+    text-align:justify;
+    align-items:center;
 }
