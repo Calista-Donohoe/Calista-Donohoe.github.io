@@ -82,6 +82,13 @@ h2 {
     padding:0px;
 }
 
+h3 {
+    color: #b07721;
+    font-family: 'Jost', 'Quicksand', sans-serif;
+    font-size:1.5em;
+    padding:0px;
+}
+
 a:link {
     color: #b07721;
     text-decoration: none;
