@@ -134,7 +134,10 @@ a {
 }
 
 #nav-drawings {
-    padding: 5%;
+    padding-left: 0%;
+    padding-top: 5%;
+    padding-bottom:5%;
+    padding-right:5%;
 }
 
 #nav-baking {
@@ -142,7 +145,10 @@ a {
 }
 
 #nav-writing {
-    padding: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom:5%;
+    padding-right:0%;
 }
 
 #nameplate {
