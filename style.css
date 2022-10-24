@@ -47,6 +47,9 @@ body {
 }
 
 header {
+    background-image:url(../images/floral-header.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
     display:flex;
     flex-direction:column;
     justify-content:space-between;
@@ -116,6 +119,13 @@ a:active {
     text-decoration-color: #87604b;
 }
 
+.header-image {
+    background-color: #feedd2;
+    border-radius: 20%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .welcome-section {
     width: 100%;
     margin: 15px auto;
@@ -155,19 +165,25 @@ a:active {
     width: 100%;
     max-width: 500px;
     border-radius: 100%;
-    margin: 10px;
     border: solid;
     border-color:#b07721;
-    margin:20px;
+    margin:15px;
+    filter: sepia(1);
+    margin-left: 17%;
+}
+
+#profile-img:hover {
+    filter: sepia(0);
 }
 
 #bio {
     width: 50%;
     margin-top:2%;
     margin-bottom:2%;
-    margin-left: 7%;
+    margin-left: 5%;
     margin-right:5%;
-    padding:5%;
+    padding-left:7%;
+    padding-right:5%;
     text-align:justify;
     align-items:center;
 }
