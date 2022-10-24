@@ -67,6 +67,14 @@ h3 {
     padding:0px;
 }
 
+p {
+    display: block;
+    margin-block-start: .75em;
+    margin-block-end: .75em;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+}
+
 a:link {
     color: #b07721;
     text-decoration: none;
@@ -133,6 +141,20 @@ a:active {
     justify-content:space-evenly;
 }
 
+.drawing-information {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.drawing-bio {
+    padding-top:4%;
+    padding-bottom:0%;
+    padding-left:5%;
+    padding-right:10%;
+    width: 40%;
+}
+
 #profile-img {
     width: 100%;
     max-width: 500px;
@@ -145,6 +167,20 @@ a:active {
 }
 
 #profile-img:hover {
+    filter: sepia(0);
+}
+
+#baby-img {
+    object-fit: cover;
+    width: 350px;
+    height: 350px;
+    padding-top: 7%;
+    padding-left: 10%;
+    filter: sepia(1);
+    border-radius:50%;
+}
+
+#baby-img:hover {
     filter: sepia(0);
 }
 
