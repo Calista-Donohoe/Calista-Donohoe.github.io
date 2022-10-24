@@ -1,3 +1,4 @@
+/* type selectors */
 
 html, body {
     background-color:#fef4e4;
@@ -45,7 +46,7 @@ nav {
 h1 {
     color: #b07721;
     font-family: 'Quicksand', serif;
-    font-weight:bold;
+    font-weight: normal;
     font-size:3.5em;
     padding:0px;
     text-shadow: 2px 2px 2px #87604b;
@@ -75,6 +76,8 @@ p {
     margin-inline-end: 10px;
 }
 
+    /* link specifics */
+
 a:link {
     color: #b07721;
     text-decoration: none;
@@ -99,19 +102,17 @@ a:active {
     text-decoration-color: #87604b;
 }
 
+    /* end link specifics */
+
+/* class selectors */
+
+    /* header classes */
+
 .header-image {
     background-color: #feedd2;
     border-radius: 20%;
     padding-left: 40px;
     padding-right: 40px;
-}
-
-.welcome-section {
-    width: 100%;
-    margin: 15px auto;
-    display:flex;
-    align-items:center;
-    position:relative;
 }
 
 .nav-menu {
@@ -141,6 +142,16 @@ a:active {
     justify-content:space-evenly;
 }
 
+    /* end header classes */
+
+.welcome-section {
+    width: 100%;
+    margin: 15px auto;
+    display:flex;
+    align-items:center;
+    position:relative;
+}
+
 .drawing-information {
     width: 80%;
     margin: 15px auto;
@@ -155,6 +166,16 @@ a:active {
    margin-top: 5%;
    margin-bottom: 5%;
 }
+
+.baking-list {
+    list-style:none;
+}
+
+.baking-sub-list {
+    font-size:0.9em;
+}
+
+/* ID selectors */
 
 #drawing-bio {
     margin-top:2%;
@@ -205,6 +226,8 @@ a:active {
     align-items:center;
 }
 
+    /* nav IDs */
+
 #nav-about {
     padding-left: 0%;
     padding-top: 5%;
@@ -233,6 +256,15 @@ a:active {
     text-align:center;
 }
 
+    /* end nav IDs*/
+
 #welcome {
     text-align:right;
+}
+
+#gallery-sub-heading {
+    text-shadow: 1px 1px 1px #87604b;
+    font-weight: normal;
+    margin-bottom:2%;
+    margin-top:5%;
 }
