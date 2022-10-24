@@ -182,4 +182,9 @@ a:active {
 #nameplate {
     padding-bottom:0;
     display:flex;
+    text-align:center;
+}
+
+#welcome {
+    text-align:right;
 }
