@@ -24,6 +24,8 @@ header {
     justify-content:space-between;
     padding-left:30%;
     padding-right:30%;
+    padding-top:2%;
+    padding-bottom:2%;
 }
 
 footer {
@@ -44,10 +46,11 @@ h1 {
     color: #b07721;
     font-family: 'Quicksand', serif;
     font-weight:bold;
-    font-size:4em;
+    font-size:3.5em;
     padding:0px;
     text-shadow: 2px 2px 2px #87604b;
     margin-bottom:2%;
+    margin-top:5%;
 }
 
 h2 {
@@ -91,8 +94,8 @@ a:active {
 .header-image {
     background-color: #feedd2;
     border-radius: 20%;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .welcome-section {
