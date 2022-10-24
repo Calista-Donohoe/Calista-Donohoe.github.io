@@ -142,17 +142,28 @@ a:active {
 }
 
 .drawing-information {
-    display: flex;
-    position: relative;
-    justify-content: center;
+    width: 80%;
+    margin: 15px auto;
+    display:flex;
+    align-items:center;
+    position:relative;
 }
 
-.drawing-bio {
-    padding-top:4%;
-    padding-bottom:0%;
-    padding-left:5%;
-    padding-right:10%;
-    width: 40%;
+.drawing-text {
+   margin-left: 0%;
+   margin-right: 5%;
+   margin-top: 5%;
+   margin-bottom: 5%;
+}
+
+#drawing-bio {
+    margin-top:2%;
+    margin-bottom:2%;
+    margin-left: 5%;
+    margin-right:2%;
+    padding-right:2%;
+    text-align:justify;
+    align-items:center;
 }
 
 #profile-img {
@@ -174,8 +185,6 @@ a:active {
     object-fit: cover;
     width: 350px;
     height: 350px;
-    padding-top: 7%;
-    padding-left: 10%;
     filter: sepia(1);
     border-radius:50%;
 }
