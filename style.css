@@ -186,7 +186,7 @@ a:active {
     width: 350px;
     height: 350px;
     filter: sepia(1);
-    border-radius:50%;
+    border-radius:25%;
 }
 
 #baby-img:hover {
