@@ -1,35 +1,4 @@
-/* link test*/
 
-/*
-#nameplate {
-    background-color: #F6E3BA;
-    border: 10px solid green;
-}
-
-.section {
-    background-color: #FFEFCB;
-    border: 10px solid red;
-}
-
-body {
-    background-color: #ccaa77;
-}
-
-h1 {
-    color: #773311;
-    font-family: 'Playfair Display', serif;
-}
-
-h2 {
-    color: white;
-    font-family: 'Noto Serif', serif;
-}
-
-p {
-    color: #bb6633;
-    font-family: 'Quicksand', sans-serif;
-}
-*/
 html, body {
     background-color:#fef4e4;
     margin: 0;
@@ -188,11 +157,15 @@ a:active {
     align-items:center;
 }
 
-#nav-drawings {
+#nav-about {
     padding-left: 0%;
     padding-top: 5%;
-    padding-bottom:5%;
+    padding-bottom: 5%;
     padding-right:5%;
+}
+
+#nav-drawings {
+    padding: 5%
 }
 
 #nav-baking {
@@ -208,4 +181,5 @@ a:active {
 
 #nameplate {
     padding-bottom:0;
+    display:flex;
 }
