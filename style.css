@@ -173,7 +173,7 @@ a:active {
     border: solid;
     border-color:#b07721;
     margin:15px;
-    filter: sepia(1);
+    filter: sepia(0.5);
     margin-left: 17%;
 }
 
