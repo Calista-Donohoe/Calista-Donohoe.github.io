@@ -201,6 +201,10 @@ video:hover {
     font-size:0.9em;
 }
 
+.welcome-page {
+    background-image: url(../images/welcome-background.jpg);
+}
+
 /* ID selectors */
 
 #drawing-bio {
@@ -306,4 +310,10 @@ video:hover {
     font-weight: normal;
     margin-bottom:2%;
     margin-top:5%;
+}
+
+#welcome-page {
+    background-image: url(../images/welcome-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
