@@ -104,6 +104,16 @@ a:active {
 
     /* end link specifics */
 
+video {
+    border-radius: 25%;
+    object-fit: cover;
+    filter: sepia(.25);
+}
+
+video:hover {
+    filter: sepia(0);
+}
+
 /* class selectors */
 
     /* header classes */
@@ -160,6 +170,14 @@ a:active {
     position:relative;
 }
 
+.baking-information {
+    width: 80%;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
 .drawing-text {
    margin-left: 0%;
    margin-right: 5%;
@@ -167,11 +185,19 @@ a:active {
    margin-bottom: 5%;
 }
 
+.baking-text {
+    margin-left: 5%;
+    margin-right: 0%;
+    margin-bottom: 5%;
+}
+
 .baking-list {
     list-style:none;
 }
 
 .baking-sub-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     font-size:0.9em;
 }
 
@@ -185,6 +211,16 @@ a:active {
     padding-right:2%;
     text-align:justify;
     align-items:center;
+}
+
+#baking-bio {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 5%;
+    padding-left: 2%;
+    text-align: justify;
+    align-items: center;
 }
 
 #profile-img {
@@ -222,8 +258,11 @@ a:active {
     margin-right:5%;
     padding-left:7%;
     padding-right:5%;
-    text-align:justify;
     align-items:center;
+}
+
+#baking-blurb {
+    display: block;
 }
 
     /* nav IDs */
