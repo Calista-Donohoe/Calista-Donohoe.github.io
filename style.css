@@ -299,6 +299,10 @@ video:hover {
     text-align:center;
 }
 
+#nameplate-link {
+    text-decoration: none;
+}
+
     /* end nav IDs*/
 
 #welcome {
