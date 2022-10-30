@@ -204,6 +204,45 @@ video:hover {
 .welcome-page {
     background-image: url(../images/welcome-background.jpg);
 }
+/*
+.artwork-img-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+.column {
+    filter: sepia(.5);
+}
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    max-width: 400px;
+}
+
+.column:hover{
+    filter: sepia(0);
+}
+*/
+
+.artwork-img-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    margin: 5%;
+}
+.gallery-img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    filter: sepia(.25);
+}
+
+.gallery-img:hover {
+    filter: sepia(0);
+
+}
 
 /* ID selectors */
 
