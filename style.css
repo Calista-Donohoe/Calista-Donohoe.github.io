@@ -212,10 +212,8 @@ video:hover {
     justify-content: center;
     flex-direction: column;
     align-content: space-evenly;
-    margin-left:5%;
-    margin-right: 5%;
     padding-left: 5%;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-right: 0px;
 }
 
@@ -247,6 +245,12 @@ video:hover {
     z-index: 2000;
     object-fit: contain;
     }
+
+.sketch-timeline {
+    padding: 2%;
+    text-align: center;
+
+}
 
 /* ID selectors */
 
@@ -344,6 +348,7 @@ video:hover {
 
 #nameplate-link {
     text-decoration: none;
+    color: #b07721;
 }
 
     /* end nav IDs*/
