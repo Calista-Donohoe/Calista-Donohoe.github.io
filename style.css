@@ -204,45 +204,49 @@ video:hover {
 .welcome-page {
     background-image: url(../images/welcome-background.jpg);
 }
-/*
-.artwork-img-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5%;
-}
-
-.column {
-    filter: sepia(.5);
-}
-.column img{
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-    max-width: 400px;
-}
-
-.column:hover{
-    filter: sepia(0);
-}
-*/
 
 .artwork-img-gallery {
     display: flex;
     flex-wrap: wrap;
     align-items:center;
-    margin: 5%;
+    justify-content: center;
+    flex-direction: column;
+    align-content: space-evenly;
+    margin-left:5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-right: 0px;
 }
-.gallery-img {
+
+/*I did have to look up how to do some tricks with the image gallery below, but it also required a lot of troubleshooting! Just wanted to clarify this is not a copy/paste. I tried to find a workaround for the 'webkit' function but couldn't figure it out completely.*/
+
+.gallery-img { 
     height: 250px;
     width: 250px;
     object-fit: cover;
+    padding: 10px;
     filter: sepia(.25);
-}
-
-.gallery-img:hover {
+    top:-40px; 
+    left:-25px; 
+    z-index:999; 
+    cursor: pointer; 
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
+    position: relative;
+    } 
+    
+.gallery-img:hover { 
     filter: sepia(0);
-
-}
+    transform: scale(2); 
+    position:relative;
+    z-index: 2000;
+    object-fit: contain;
+    }
 
 /* ID selectors */
 
