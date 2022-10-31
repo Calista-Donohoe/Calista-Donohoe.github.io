@@ -121,6 +121,17 @@ video:hover {
     filter: sepia(0);
 }
 
+table {
+    width: 80%;
+    border: solid;
+}
+
+td {
+    border:solid;
+}
+
+
+
 /* class selectors */
 
     /* header classes */
