@@ -225,6 +225,12 @@ video:hover {
     font-size:0.9em;
 }
 
+.baking-blurb {
+    display: block;
+    padding: 5px;
+}
+
+
 .welcome-page {
     background-image: url(../images/welcome-background.jpg);
 }
@@ -335,11 +341,6 @@ video:hover {
     padding-right:5%;
     align-items:center;
 }
-
-#baking-blurb {
-    display: block;
-}
-
     /* nav IDs */
 
 #nav-about {
