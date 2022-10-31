@@ -68,6 +68,13 @@ h3 {
     padding:0px;
 }
 
+h4 {
+    color:black;
+    font-family: 'Jost', 'Quicksand', sans-serif;
+    font-size: 1.2em;
+    padding: 0%;
+}
+
 p {
     display: block;
     margin-block-start: .75em;
@@ -117,6 +124,23 @@ video:hover {
 /* class selectors */
 
     /* header classes */
+
+.welcome-nameplate-box {
+        background-color: rgba(232,213,179,.8);
+        color: #feedd2;
+        padding: 8%;
+        padding-left: 26%;
+        padding-right: 26%;
+        text-align: center;
+        display:flex;
+    }
+
+.welcome-nav-menu {
+    background-color: rgba(232,213,179,.8);
+    color: #feedd2;
+    padding-left: 50%;
+    padding-right: 50%;
+}
 
 .header-image {
     background-color: #feedd2;
@@ -249,7 +273,7 @@ video:hover {
 .sketch-timeline {
     padding: 2%;
     text-align: center;
-
+    margin-top: 0px;
 }
 
 /* ID selectors */
@@ -369,3 +393,14 @@ video:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#welcome-page-nameplate {
+    color: #feedd2;
+    font-family: 'Quicksand', serif;
+    font-weight: normal;
+    font-size:6em;
+    padding:0px;
+    text-shadow: 2px 2px 2px #b07721;
+    text-align: left;
+}
+
