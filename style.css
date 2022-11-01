@@ -83,6 +83,10 @@ p {
     margin-inline-end: 10px;
 }
 
+table {
+    font-size: 1.2em;
+}
+
     /* link specifics */
 
 a:link {
