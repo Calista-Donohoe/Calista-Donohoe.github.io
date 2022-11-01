@@ -72,6 +72,50 @@
         <hr/>
 <!--IMAGE GALLERY-->
             <h2><div id="gallery-sub-heading"><strong>&dot;</strong> sketchbook gallery <strong>&dot;</strong></div></h2>
+
+            <!--javascript test-->
+<div class="tab">
+    <button class="tablinks" onclick="openSketch(event, 'sketch1')">2021-Present</button>
+    <button class="tablinks" onclick="openSketch(event, 'sketch2')">2020-2021</button>
+    <button class="tablinks" onclick="openSketch(event, 'sketch3')">2017-2019</button>
+    <button class="tablinks" onclick="openSketch(event, 'sketch4')"> 2014-2017
+  </div>
+  
+  <div id="sketch1" class="tabcontent">
+    <h3>sketchbook from living in nyc</h3>
+    <p>images here</p>
+  </div>
+  
+  <div id="sketch2" class="tabcontent">
+    <h3>sketchbook from living in denver, co</h3>
+    <p>images here</p> 
+  </div>
+  
+  <div id="sketch3" class="tabcontent">
+    <h3>sketchbook from living in denver, co & kailua-kona, hi</h3>
+    <p>images here</p>
+  </div>
+  
+  <div id="sketch4" class="tabcontent">
+      <h3>images here</h3>
+  </div>
+  
+  <script>
+  function openSketch(evt, sketchName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(sketchName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  </script>
+<!--end javascript test-->
                 <h4 class="sketch-timeline"><strong>sketchbook from nyc (2021-present)</strong></h4>
             <div class="artwork-img-gallery">
                 <div class="column">
