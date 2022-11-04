@@ -381,6 +381,8 @@ td {
     filter: sepia(0);
 }
 
+/* leaving this just in case I decide against the looping vid
+
 #drawing-profile-img {
     object-fit: fill;
     width: 350px;
@@ -392,6 +394,7 @@ td {
 #drawing-profile-img:hover {
     filter: sepia(0);
 }
+*/
 
 #sketch-timeline-1 {
     padding-top:1.5%;
