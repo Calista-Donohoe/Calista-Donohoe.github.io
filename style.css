@@ -262,14 +262,16 @@ td {
     padding-right: 0px;
 }
 
-/*I did have to look up how to do some tricks with the image gallery below, but it also required a lot of troubleshooting! Just wanted to clarify this is not a copy/paste. I tried to find a workaround for the 'webkit' function but couldn't figure it out completely.*/
+
 
 .gallery-img { 
-    height: 250px;
-    width: 250px;
+    height: 500px;
+    width: 350px;
     object-fit: cover;
     padding: 10px;
     filter: sepia(.25);
+
+    /* taking out some image gallery coding that I may want further down the line, ~don't mind me~
     top:-40px; 
     left:-25px; 
     z-index:999; 
@@ -281,13 +283,18 @@ td {
     -webkit-transition-duration: 0.3s; 
     -webkit-transition-timing-function: ease; 
     position: relative;
+    */ 
     } 
     
 .gallery-img:hover { 
     filter: sepia(0);
+
+    /*same goes for this
     transform: scale(2); 
     position:relative;
     z-index: 2000;
+    */
+
     object-fit: contain;
     }
 
