@@ -71,7 +71,7 @@ h3 {
 h4 {
     color:black;
     font-family: 'Jost', 'Quicksand', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.25em;
     padding: 0%;
 }
 
@@ -85,11 +85,11 @@ p {
 
 button {
     font-family: 'Jost', 'Quicksand', sans-serif;
-    font-size: 1.2 em;
+    font-size: 1.25 em;
 }
 
 table {
-    font-size: 1.2em;
+    font-size: 1.25 em;
 }
 
     /* link specifics */
